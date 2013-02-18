@@ -22,3 +22,10 @@ How To Run :
 3. grant executable permission to the script
 `chmod u+x export.py`
 4. Run the script `$ python export.py`
+
+Queries / Issues?
+===============
+
+https://github.com/ijeyanthan/import-into-zendesk-forum/issues
+
+Feel free to reach out to me in  ijeyanthan [at] gmail [dot] com
