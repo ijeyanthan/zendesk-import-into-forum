@@ -7,12 +7,13 @@ To know more, visit http://developer.zendesk.com/documentation/rest_api/forums.h
 
 Example request available in the Zendesk developers page is using curl.
 
-`curl https://yoursubdomain.zendesk.com/api/v2/topics.json \`
-`-H "Content-Type: application/json" -v -u email:password -X POST \`
- `-d '{"topic": {"forum_id": 79161, "title": "My Topic", "body":"<code>This is some code</code>", "topic_type": "articles", "access": "logged in users" }'`
+ <code> curl https://yoursubdomain.zendesk.com/api/v2/topics.json \
+-H "Content-Type: application/json" -v -u email:password -X POST \
+-d '{"topic": {"forum_id": 79161, "title": "My Topic", "body":"<code>This is some code</code>", "topic_type": "articles", "access": "logged in users" }' <code>
 
-The above example had a limitation of adding HTML code into <code>, which is impossible when we had thousands of files to be uploaded.
-Thus I wrote a Python script tweaking the above example, so that I can refer an external file to fetch HTML contents and import it as an individual Topic. 
+The above example had a limitation of adding HTML code into`<code>`, which is impossible when we had thousands of files to be uploaded.
+Thus I wrote a Python script tweaking the above example, 
+so that I can refer an external file to fetch HTML contents and import it as an individual Topic. 
 
 How To Run :
 ============
