@@ -9,4 +9,4 @@ Example request that I tweaked is using curl.
 
 curl https://yoursubdomain.zendesk.com/api/v2/topics.json \
  -H "Content-Type: application/json" -v -u email:password -X POST \
- -d '{"topic": {"forum_id": 79161, "title": "My Topic", "body":"<code>This is some code</code>", "topic_type": "articles", "access": "logged in users" }'
+ -d '{"topic": {"forum_id": 79161, "title": "My Topic", "body":"<code>This is some code</code>", "topic_type": "articles", "access": "logged in users" }'`
