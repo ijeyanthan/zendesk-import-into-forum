@@ -1,4 +1,4 @@
-import-into-zendesk-forum
+import-into-zendesk-forum (deprecated)
 =========================
 [This project is obsolete as Zendesk changed its forums to Help Center]
 
