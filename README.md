@@ -1,6 +1,6 @@
 import-into-zendesk-forum
 =========================
-
+[This project is obsolete as Zendesk changed its forums to Help Center]
 A Python Script to import bunch of offline HTML files into Zendesk Forum creating Topics in a Forum under Categories
 
 To know more, visit http://developer.zendesk.com/documentation/rest_api/forums.html for the list of possible JSON requests available in Zendesk.
